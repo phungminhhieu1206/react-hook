@@ -1,2 +1,8 @@
-1. Giới thiệu
+1. Tạo project react-app
+- npx create-react-app .
+
+
+2. Giới thiệu React Hook
 - ReactHook mới thêm từ React 16.8, giúp sử dụng các tính năng của lifecycle và quản lý state trong 1 Functional Component
+- Mục đích: Quản lý state trong 1 functional Component
+
