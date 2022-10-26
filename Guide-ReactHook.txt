@@ -1,0 +1,2 @@
+1. Giới thiệu
+- ReactHook mới thêm từ React 16.8, giúp sử dụng các tính năng của lifecycle và quản lý state trong 1 Functional Component
