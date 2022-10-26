@@ -12,3 +12,14 @@
 (Khi init giá trị ban đầu cho state mà giá trị đó được tính từ một function phức tạp thì nên truyền theo kiểu allow function)
 - 3.3: [Lưu ý]: ReactHook cập nhật state là thay thế bằng giá trị mới, không merge !
 
+4. useEffect()
+- Mục đích:
+    + Xử lý các Side Effects trong Functional Component như: 
+        * Thực hiện gọi API
+        * Thêm/xóa các event listeners(click, scroll,...)
+        * Thao tác DOM trực tiếp
+        * Gọi Web APIs (setTimeoutm, setInterval, ...)
+        ....
+- Hoạt động giống như các lifecycle trong class component: componentDidMount, componentDidUpdate
+- Hàm trong useEffect được gọi khi bất cứ state nào trong component thay đổi giá trị (nếu không chỉ định tham số thứ 2 của useEffect).
+- Tham số thứ 2 của useEffect chỉ rõ useEffect đó sẽ được gọi khi state nào thay đổi
