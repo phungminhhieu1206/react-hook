@@ -6,3 +6,9 @@
 - ReactHook mới thêm từ React 16.8, giúp sử dụng các tính năng của lifecycle và quản lý state trong 1 Functional Component
 - Mục đích: Quản lý state trong 1 functional Component
 
+3. useState()
+- 3.1: setCount update theo allow function giải quyết vấn đề update nhiều lần
+- 3.2: initial value nếu nhận giá trị return từ 1 hàm phức tạp/ 1 api ban đầu thì nên gọi theo allow function, không nên gọi hàm trực tiếp
+(Khi init giá trị ban đầu cho state mà giá trị đó được tính từ một function phức tạp thì nên truyền theo kiểu allow function)
+- 3.3: [Lưu ý]: ReactHook cập nhật state là thay thế bằng giá trị mới, không merge !
+

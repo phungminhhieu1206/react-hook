@@ -1,6 +1,12 @@
+import ExampleClass from "./components/ExampleClass";
+import ExampleFunctional from "./components/ExampleFunctional";
+
 function App() {
   return (
-    <p>Hello</p>
+    <>
+      <ExampleFunctional />
+      {/* <ExampleClass /> */}
+    </>
   );
 }
 
